@@ -26,9 +26,9 @@ const produce = async () => {
 				]
 			})
 		} catch (error) {
-			console.error(error);	
+			console.error(error);
 		}
-	}, 1000);
+	}, 10000);
 };
 
 export default produce;
